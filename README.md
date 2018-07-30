@@ -8,7 +8,7 @@ In this project I created Stopwatch class. I built class with constructor and me
 
 ## SOURCE 
 While creating the project I used: 
-1. ECMAScript 2015 class  [https://developer.mozilla.org/pl/docs/Web/JavaScript/Reference/Classes]
+1. MDN web docs  [https://developer.mozilla.org/en-US/docs/Web/JavaScript]
 
 ## TOOLS 
 I used package.json and task runner.
