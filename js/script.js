@@ -72,7 +72,7 @@ class Stopwatch extends React.Component {
     }
     
     render() {
-        return React.createElement('div', {},
+        return React.createElement('div', {className: 'container'},
             React.createElement('h1', {className: 'header'}, 'STOPER'),
             React.createElement('div', {className: 'controls'},
                 React.createElement('button', {className: 'button', onClick: () => this.start()}, 'START'),                   
@@ -86,3 +86,4 @@ class Stopwatch extends React.Component {
 
 var element = React.createElement(Stopwatch);
 ReactDOM.render(element, document.getElementById('app'));
+ReactDOM.render(element, document.getElementById('app_second'));
