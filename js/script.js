@@ -84,6 +84,11 @@ class Stopwatch extends React.Component {
     }
 }
 
-var element = React.createElement(Stopwatch);
-ReactDOM.render(element, document.getElementById('app'));
-ReactDOM.render(element, document.getElementById('app_second'));
+const elements = (
+    React.createElement('div', {},
+        React.createElement(Stopwatch),
+        React.createElement(Stopwatch)
+    )
+);
+
+ReactDOM.render(elements , document.getElementById('app'));
